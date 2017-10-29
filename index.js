@@ -17,14 +17,14 @@ function calculatesFarePrice(start, destination){
   if (dis<=400){
     return 0
   }
-  else if (400<dis<2000){
+  else if (400<dis && dis<2000){
     return 0.02 * dis
   }
-  else if(2500>=dis>2000){
+  else if(2500>=dis && dis>2000){
     return 25
   }
   else{
     return 'cannot travel that far'
   }
-  
+
 }
