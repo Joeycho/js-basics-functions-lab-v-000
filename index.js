@@ -4,6 +4,6 @@ function distanceFromHqInBlocks(arg)
   return Math.abs(arg-42)
 }
 
-function calculateVertical(beginning, ending){
-  return 264*(ending - beginning)*4
+function distanceFromHqInFeet(ending){
+  return 264*distanceFromHqInFeet(ending)
 }
